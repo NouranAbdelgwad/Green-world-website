@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto';
+}
+nav .logo{
+    width: 100px;
+    margin-right: 50px;
+}
+.nav-link{
+    color: #638a55!important;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.active{
+    color: #9BBA74 !important;
+}
+.nav-link :hover{
+    color: #9BBA74 !important;
+    font-size: 25px;
+}
+
+.green-btn{
+    background-color: #638a55;
+    color: #f8f8f8;
+}
+.green-btn:hover{
+    background-color: #9BBA74;
+}
+.btn-outline-green{
+    color: #f8f8f8;
+    background-color: #9BBA74;
+}
+.btn-outline-green:hover{
+    background-color: #638a55;
+    color: #666;
+}
+.green{
+    display: inline;
+    color: #638a55;
+}
+.title{
+    color: #9BBA74;
+    font-family: 'Indie Flower', cursive;
+    font-size: 48pt;
+    padding-top: 100px;
+}
+.summary{
+    font-family: 'Roboto';
+}
+.slogan{
+    font-size: 1fr;
+    border-bottom: #638a55 2px solid;
+    font-size: 22pt;
+}
+.text-section{
+    width: 80%;
+    margin: auto;
+}
+.pollution-img{
+    display: inline;
+    width: 500px;
+    align-self: center;
+}
+.btn-green{
+    background-color: #638a55;
+    color: #f8f8f8;
+}
+.section{
+    height: fit-content;
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url('./green-tree-xsvdxwxl5wivp3va.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.card{
+    margin: 10px auto;
+}
+.bi-clipboard-x{
+    width: 100%;
+}
+.card-body{
+    text-align: center;
+}
+.row{
+    padding-top: 20px;
+}
+.problem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding: 50px 0px ;
+}
+.card-title{
+    font-weight: bold;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
